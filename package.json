@@ -1,0 +1,17 @@
+{
+  "name": "linkedin-mcp",
+  "version": "1.0.0",
+  "description": "LinkedIn MCP server for job search and application tracking",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "dotenv": "^16.5.0",
+    "zod": "^3.25.0",
+    "playwright": "^1.52.0"
+  }
+}
